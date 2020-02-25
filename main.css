@@ -1,11 +1,38 @@
 * {
     margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ol>li {
+    padding: 10px;
+}
+
+div h1 {
+    padding-bottom: 15px;
+}
+
+header {
+    padding: 20px;
+}
+
+div div{
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+
+header, #portfolio {
+    border-bottom: 1px solid;
 }
 
 nav {
     background: #2C3E50;
     color: #fff;
     overflow: hidden;
+    padding: 20px;
 }
 
 nav h1 {
@@ -33,8 +60,34 @@ nav a {
 header {
     background: #18BC9C;
     text-align: center;
+    
+}
+
+#myPhoto {
+    height: 250px;
+    width: 250px;
+    border-radius:  50%;
+    padding-bottom: 15px;
 }
 
 #content {
     text-align: center;
+    
+}
+
+#portfolio {
+    background: #18BC9C;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #2C3E50;
+    color: #fff;
+    padding: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
 }

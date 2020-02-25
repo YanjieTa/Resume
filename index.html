@@ -10,28 +10,28 @@
         <h1>Yanjie Ta</h1>
         <ul>
             <li>
-                <a href="">Resume</a>
+                <a href="header">Resume</a>
             </li>
             <li>
-                <a href="">Education</a>
+                <a href="#Education">Education</a>
             </li>
             <li>
-                <a href="">Projects</a>
+                <a href="#Projects">Projects</a>
             </li>
             <li>
-                <a href="">Skill Set</a>
+                <a href="#SkillSet">Skill Set</a>
             </li>
             <li>
-                <a href="">Volunteer Work</a>
+                <a href="#VolunteerWork">Volunteer Work</a>
             </li>
             <li>
-                <a href="">About</a>
+                <a href="#portfolio">Portfolio</a>
             </li>
         </ul>
     </nav>
 
     <header>
-        <img src="https://github.com/YanjieTa/Resume/blob/master/img/photo.PNG" />
+        <img id="myPhoto" src="img/myPhoto.PNG" />
         <h1>Yanjie Ta</h1>
         <ul>
             <li>
@@ -48,8 +48,8 @@
     </header>
 
     <div id="content">
-        <div>
-            <h3>Education</h3>
+        <div id="Education">
+            <h1>Education</h1>
             <p>
                 <strong>UNIVERSITY OF CALIFORNIA, DAVIS — DAVIS, CA</strong><br/>
                 Bachelor of Science, Major in Computer Science
@@ -59,12 +59,12 @@
             </p>
         </div>
 
-        <div>
-            <h3>Projects</h3>
+        <div id="Projects">
+            <h1>Projects</h1>
             <ol>
                 <li>
                     <ul>
-                        <li>Course Registration System:</li>
+                        <li><strong>Course Registration System:</strong></li>
                         <li>A course registration system which helps students to register and manage their courses.</li>
                         <li>Leverage Angular 6 to implement the front end of the website.</li>
                         <li>Utilize back end framework Spring to build the service logic and MySQL to store students information.</li>
@@ -72,7 +72,7 @@
                 </li>
                 <li>
                     <ul>
-                        <li>Weather Web App:</li>
+                        <li><strong>Weather Web App:</strong></li>
                         <li>A weather app which shows temperature of cities in San Francisco Bay Area.</li>
                         <li>Leverage React to build front-end pages and leverage Redux to store states.</li>
                         <li>Back end utilizes Express to build service and logic.</li>
@@ -80,7 +80,7 @@
                 </li>
                 <li>
                     <ul>
-                        <li>Personal  Website:</li>
+                        <li><strong>Personal  Website:</strong></li>
                         <li>My personal website includes my profiles and projects.</li>
                         <li>Static pages which utilize jQuery to function and Bootstrap to style.</li>
                     </ul>
@@ -88,47 +88,35 @@
             </ol>
         </div>
 
-        <div>
-            <h3>Skill Set</h3>
+        <div id="SkillSet">
+            <h1>Skill Set</h1>
             <ul>
-                <li><strong>Programming/Languages: </strong>HTML, CSS, JavaScript, Java, SQL</li>
-                <li><strong>Frameworks/Tools: </strong>jQuery, Bootstrap, React, Angular, Nodejs, Spring,  MySQL, Git</li>
-                <li><strong>Platform: </strong>Mac OS, Linux/Unix, Windows, AWS</li>
-                <li><strong>Languages: </strong>English, Chinese</li>
+                <li><strong>Programming/Languages: </strong>HTML, CSS, JavaScript, C#, Java, SQL</li>
+                <li><strong>Frameworks/Tools: </strong>jQuery, Bootstrap, React, Angular, Unity, Nodejs, Spring, MySQL, Git</li>
+                <li><strong>Platform: </strong>Mac OS, Windows, Linux/Unix</li>
+                <li><strong>Languages: </strong>English, Chinese Mandarin</li>
             </ul>
         </div>
 
-        <div>
-            <h3>Volunteer Work</h3>
+        <div id="VolunteerWork">
+            <h1>Volunteer Work</h1>
             <p>
                 Volunteer at Asian Community Center, Senior Services of Sacramento
             </p>
         </div>
-
-        <div>
-            <h3>About</h3>
-            <p>
-
-            </p>
-        </div>
     </div>
 
-    <aside>
-        <a href="#">Back to Top</a>
-    </aside>
+    <div id="portfolio">
+        <gallary>
+            <a>1<img src=""></a>
+            <a>2<img src=""></a>
+            <a>3<img src=""></a>
+            <a>4<img src=""></a>
+        </gallary>
+    </div>
 
     <footer>
-        <ul>
-            <li>
-                <a>github</a>
-            </li>
-            <li>
-                <a>linkedin</a>
-            </li>
-            <li>
-                <a>facebook</a>
-            </li>
-        </ul>
+        <a href="#">Back to Top</a>
     </footer>
 </body>
 </html>
