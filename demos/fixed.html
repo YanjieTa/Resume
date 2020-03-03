@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Yanjie Ta's Resume</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 2000px;
+        }
+
+        ul {
+            background: lightgray;
+            width: 600px;
+        }
+
+        li {
+            position: relative;
+            background: blue;
+            color: white;
+            margin-bottom: 10px;
+            height: 60px;
+            line-height: 60px;
+        }
+
+        input[type="checkbox"] {
+            /* float: right; 通过浮动来实现
+            margin-right: 40px;
+            width: 20px;
+            height: 20px;
+            margin-top: 20px; */
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            width: 20px;
+            height: 20px;
+        }
+
+        button {
+            width: 60px;
+            height: 60px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-top: -30px;
+            margin-left: -30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Check what you read</h2>
+    <ul>
+        <li>Hello Code
+            <input type="checkbox"></li>
+        <li>master javascript in 21 days
+            <input type="checkbox"></li>
+        <li>js full stack path
+            <input type="checkbox"></li>
+    </ul>
+    <button>Feedback</button>
+</body>
+</html>
