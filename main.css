@@ -81,20 +81,20 @@ nav a {
     
 }
 
-#Web, #Unity {
+/* #Web, #Unity {
     background: #18BC9C;
     text-align: center;
     
-}
+} */
 
-div[id="Unity"] {
+/* div[id="Unity"] {
     border-width: 0;
 }
 
 div[id="Unity"] div{
     /* padding: 0; */
     border-width: 0;
-}
+} */
 
 .container {
     display: flex;
